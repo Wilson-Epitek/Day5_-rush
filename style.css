@@ -1,0 +1,77 @@
+* {
+    color: gray;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    flex-wrap: wrap
+}
+header { 
+    background-image: url(./Image/grille.png);
+    height: 200px;
+    display: flex; 
+            justify-content: space-around;   
+}          
+header #hotel h2 {
+    border-bottom: 7px solid red; 
+}
+header #resto h2 {
+    border-bottom: 7px solid yellow; 
+}
+header #service h2 {
+    border-bottom: 7px solid green; 
+}
+header #activite h2 {
+    border-bottom: 7px solid blue; 
+}
+header #plus h2 {
+    border-bottom: 7px solid magenta; 
+}                  
+
+
+
+
+body > div > h3 {
+    color: chocolate; 
+}
+body #text { 
+    height: 50px;
+    background-image: url(./Image/grille.png);
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+}
+body #conteneur {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+
+body #gauche, #centre, #droite {
+    width: 30%; 
+    padding: 10px;
+}
+body #golf { 
+    border:  2px solid lightgrey;
+    padding: 10px;
+    margin: 20px;
+}
+body #imagesAccrobranches { 
+    border:  2px solid lightgrey;
+    padding: 7px;
+}
+
+
+
+
+footer #fondBas  {
+background-image: url(./Image/grille.png);   
+}
+footer #conteneur2 {
+    display: flex;           
+    justify-content: space-between;  
+    width: 100%;                
+    padding: 20px ;        
+}
+footer #conteneur2 > div {
+    width: 23%;              
+    padding: 10px;              
+}
+
